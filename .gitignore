@@ -1,0 +1,17 @@
+build/
+install/
+log/
+
+dataset/
+
+__pycache__/
+*.pyc
+*.pyo
+
+.pytest_cache/
+.coverage
+
+*.db3
+*.mcap
+
+results/performance/ros_logs/
