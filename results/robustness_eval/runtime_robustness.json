@@ -1,0 +1,42 @@
+{
+  "test_utc": "2026-09-27T17:36:37.654876+00:00",
+  "real_bag": "30618_af7496f0",
+  "split": "dev",
+  "results": {
+    "real_bag": {
+      "outputs_velocity": 390,
+      "outputs_position": 390,
+      "diagnostics": 19,
+      "finite_outputs": true,
+      "finite_numeric_diagnostics": true,
+      "alive_at_end": true,
+      "exit_codes": [
+        0,
+        0
+      ],
+      "max_velocity_receipt_gap_s": 0.05305441000018618
+    },
+    "synthetic_ros": {
+      "outputs_velocity": 361,
+      "outputs_position": 361,
+      "diagnostics": 19,
+      "finite_outputs": true,
+      "finite_numeric_diagnostics": true,
+      "alive_at_end": true,
+      "exit_codes": [
+        0
+      ],
+      "max_velocity_receipt_gap_s": 0.09987683499639388,
+      "slip_flag_observed": true,
+      "model_only_observed": true,
+      "command_stale_observed": true,
+      "invalid_input_count_observed": 40,
+      "diagnostics_after_clock_reset": true,
+      "recovered_status_before_reset": true,
+      "final_status": "ok"
+    }
+  },
+  "synthetic_schedule": "0..4 normal 8m/s; 4..7 front +5m/s; 7..9 all vehicle inputs missing; 9..11 wheel NaN; 11..18 normal. At 14s simulation clock rolls back 50s.",
+  "limitations": "Synthetic direct publishers, not a modified bag. No forward Header spike or prolonged simultaneous slip injected into ROS; those are tested in the core harness. No labeled real slip validation.",
+  "diagnostic_parser_note": "Estimator mode is the prefix of DiagnosticStatus.message; values[status] is the position mode, because pose status overwrites state status in the existing merged fields."
+}

@@ -1,0 +1,316 @@
+{
+  "criterion_1_velocity": {
+    "split": "test",
+    "bags": 20,
+    "bags_in_split": 20,
+    "matched_samples": 223335,
+    "rmse": 0.07005417347900204,
+    "mae": 0.029096248461058995,
+    "bias": -0.01899172299481678,
+    "max_abs": 12.057305578388593,
+    "filtered_gnss_agree": {
+      "samples": 221641,
+      "rmse": 0.051904169889377,
+      "mae": 0.028707031163235024,
+      "bias": -0.0193506981970927,
+      "max_abs": 1.7928497652821873,
+      "p95_abs": 0.10185812451751008
+    },
+    "regimes": {
+      "acceleration": {
+        "samples": 54433,
+        "rmse": 0.05631129938083651,
+        "mae": 0.033758808170104,
+        "bias": -0.019006878662849794
+      },
+      "braking": {
+        "samples": 53444,
+        "rmse": 0.06517348931480058,
+        "mae": 0.037388554934700544,
+        "bias": -0.022148979908318763
+      },
+      "steady": {
+        "samples": 43156,
+        "rmse": 0.06291807097982191,
+        "mae": 0.042876428673858734,
+        "bias": -0.03390966969902124
+      },
+      "stop": {
+        "samples": 68864,
+        "rmse": 0.08683050845570811,
+        "mae": 0.010202043132890618,
+        "bias": -0.007007273451104936
+      }
+    },
+    "stop_gnss_agree": {
+      "samples": 68287,
+      "rmse": 0.01852946004460239,
+      "mae": 0.008946484780576509,
+      "bias": -0.008242664943587554
+    },
+    "baseline_wheel_mean": {
+      "samples": 223335,
+      "rmse": 0.08390136441510199,
+      "mae": 0.04132880019151937,
+      "bias": -0.01871057552118641,
+      "max_abs": 12.049349149068197,
+      "p95_abs": 0.13141249618530207
+    },
+    "live_minus_offline_rmse": 0.0022130202124002046,
+    "live_minus_offline_max": 0.020085197765348894,
+    "live_check_bag": "30618_d4ba7005",
+    "live_check_seconds": 79.450123776,
+    "velocity_rate_hz": 20.0
+  },
+  "criterion_2_position": {
+    "split": {
+      "train": 57,
+      "dev": 20,
+      "test": 20
+    },
+    "path_map": "src/tram_odometry/config/train_path_map.json",
+    "map_source": "TRAIN GNSS master fixes only",
+    "map_train_bags": 37,
+    "map_nodes": 7379,
+    "dev_coverage_pct_pooled_audited": 96.72279268510762,
+    "dev_lateral_rmse_m_audited": 0.432488231769031,
+    "dev_failures": [
+      "30618_21dd3af3"
+    ],
+    "test_bags": 20,
+    "median": {
+      "final_error_m": 7.55362696548154,
+      "rmse_m": 4.892041679934658,
+      "mae_m": 4.406642925147308,
+      "final_drift_pct_unreliable_denominator": 0.13674791090721763,
+      "along_mean": -4.449886353182914,
+      "along_rmse": 4.836362875338811,
+      "along_max": 23.124770807866128,
+      "cross_mean": -0.06996182257909317,
+      "cross_rmse": 1.1584573621382288,
+      "cross_max": 5.718455908988631
+    },
+    "pooled": {
+      "position_rmse_m": 50.509775833746616,
+      "along_cross": "NOT VERIFIED (weighting bug found by audit)"
+    },
+    "global_max": {
+      "final_error_m": 176.9077162017763,
+      "along_abs_m": 221.64491364368592,
+      "cross_abs_m": 195.6765135150788
+    },
+    "no_map": {
+      "median_final_error_m": 4925.982299238063,
+      "median_rmse_m": 2999.96048685351,
+      "pooled_rmse_m": 4229.159255193146,
+      "worst_final_m": 9860.73057894385
+    },
+    "whole_run_drift": "NOT VERIFIED",
+    "endpoint_over_covered_speed_distance_median_pct": 0.14398193782260413,
+    "failures_final_gt_30m": [
+      "30618_a869780d",
+      "30618_defd0170",
+      "30618_0686195f",
+      "30618_88548b02",
+      "30618_27e994fc",
+      "30639_0be558e2"
+    ],
+    "failures_final_gt_50m": [
+      "30618_a869780d",
+      "30618_defd0170",
+      "30618_0686195f",
+      "30618_27e994fc",
+      "30639_0be558e2"
+    ],
+    "runtime_path_map_verified": {
+      "status": "VERIFIED (short DEV run)",
+      "bag": "30618_af7496f0",
+      "seconds": 20.018583899000078,
+      "messages": 386,
+      "last_status": "ok; path_map"
+    }
+  },
+  "criterion_3_robustness": {
+    "scenarios": 15,
+    "passed": 13,
+    "failed": [
+      {
+        "scenario": "forward_header_spike",
+        "max_speed_error_mps": 3.1965469560441324,
+        "distance_deviation_m": 580.3743747008764,
+        "recovery_s": null
+      },
+      {
+        "scenario": "both_slip_long",
+        "max_speed_error_mps": 5.189693840410515,
+        "distance_deviation_m": 55.14846647283355,
+        "recovery_s": 3.400000000000002
+      }
+    ],
+    "criteria": "Declared before running: finite, no exceptions, state time advances at every 20Hz tick, error <=1m/s, distance deviation <=10m, recovery <=5s sustained for 1s, sane wheels accepted.",
+    "capabilities": [
+      {
+        "item": "Front/rear disagreement detection",
+        "status": "YES",
+        "evidence": "front_slip_5mps, moderate_disagreement PASS; slip flag set"
+      },
+      {
+        "item": "Model residual detection",
+        "status": "PARTIAL",
+        "evidence": "both_slip_short PASS; both_slip_long FAIL (sustained consistent slip reacquired)"
+      },
+      {
+        "item": "Jump/outlier rejection",
+        "status": "YES",
+        "evidence": "front_spike, rear_spike PASS; rejected inputs change speed by 0.0 m/s"
+      },
+      {
+        "item": "Trust reduction/downweighting",
+        "status": "YES",
+        "evidence": "R x9 on disagreement; update ratio 0.54"
+      },
+      {
+        "item": "Model fallback",
+        "status": "YES",
+        "evidence": "both_missing PASS; model_only observed in ROS"
+      },
+      {
+        "item": "Stale/missing-input handling",
+        "status": "YES",
+        "evidence": "both_missing, rear_missing_long, command_missing PASS; command_stale observed in ROS"
+      },
+      {
+        "item": "Recovery",
+        "status": "PARTIAL",
+        "evidence": "recovery <=0.5 s in passing cases; forward_header_spike never recovers"
+      },
+      {
+        "item": "Diagnostics/slip status",
+        "status": "YES",
+        "evidence": "/result/diagnostics slip flag, model_only, invalid counts observed in ROS"
+      },
+      {
+        "item": "ROS crashes",
+        "status": "NONE OBSERVED",
+        "evidence": "short real-bag + synthetic ROS runs alive, exit codes [0, 0]"
+      },
+      {
+        "item": "NaN/Inf outputs",
+        "status": "NONE OBSERVED",
+        "evidence": "all 15 cases finite; ROS outputs finite"
+      },
+      {
+        "item": "Real labelled slip validation",
+        "status": "NOT VERIFIED",
+        "evidence": "no labels supplied"
+      },
+      {
+        "item": "Slip-ratio estimation",
+        "status": "NO",
+        "evidence": "not implemented"
+      },
+      {
+        "item": "Adhesion-coefficient estimation",
+        "status": "NO",
+        "evidence": "not implemented"
+      }
+    ],
+    "unit_tests": {
+      "passed": 15,
+      "failed": 0
+    }
+  },
+  "criterion_4_performance": {
+    "velocity_hz": 20.0,
+    "position_hz": 20.0,
+    "max_interval_ms": 56.09486899993499,
+    "cpu_percent_mean": 13.779723273159174,
+    "cpu_percent_sampled_peak": 19.937435927278656,
+    "effective_cores_mean": 0.13779723273159175,
+    "effective_cores_peak": 0.19937435927278657,
+    "rss_mb_mean": 60.96145833707865,
+    "rss_mb_max": 60.98944,
+    "observation_s": 45.001539645001685,
+    "short_run_alive": true,
+    "build_without_internet": {
+      "command": "source /opt/ros/humble/setup.bash && colcon build --symlink-install",
+      "exit_code": 0,
+      "duration_seconds": 63,
+      "evidence": "results/performance/build.log",
+      "network": "Build executed inside network-restricted sandbox; no installation or downloads performed; existing Humble dependencies used."
+    },
+    "latency_proxy_velocity_ms": {
+      "mean": 9.398912580547538,
+      "median": 9.45673149999493,
+      "max": 14.512437999655958
+    },
+    "latency_proxy_position_ms": {
+      "mean": 9.840033234037813,
+      "median": 9.959654498743475,
+      "max": 15.800361999936285
+    },
+    "causal_latency_le_100ms": "NOT VERIFIED",
+    "causal_peak_le_250ms": "NOT VERIFIED",
+    "long_term_stability": "NOT VERIFIED"
+  },
+  "summary": [
+    {
+      "criterion": "Velocity accuracy",
+      "result": "RMSE 0.070 m/s, MAE 0.029, bias -0.019 (20 test bags)",
+      "evidence_status": "strong"
+    },
+    {
+      "criterion": "Position accuracy",
+      "result": "median final 7.6 m, pooled RMSE 50.5 m; 6/20 bags >30 m",
+      "evidence_status": "partial"
+    },
+    {
+      "criterion": "Slip/anomaly robustness",
+      "result": "13/15 synthetic PASS; no real slip labels",
+      "evidence_status": "partial"
+    },
+    {
+      "criterion": "Real-time performance",
+      "result": "20 Hz, 0.20 cores peak, 61 MB; causal latency NOT VERIFIED",
+      "evidence_status": "partial"
+    }
+  ],
+  "plots": {
+    "Velocity": [
+      "results/velocity_eval/velocity_comparison.png",
+      "results/velocity_eval/velocity_error.png",
+      "results/velocity_eval/velocity_zoom_transients.png",
+      "results/velocity_eval/regime_metrics.png",
+      "results/velocity_eval/live_vs_offline.png"
+    ],
+    "Position": [
+      "results/route_eval/route_map.png",
+      "results/route_eval/dev_route_overlay.png",
+      "results/route_eval/test_trajectory_comparison.png",
+      "results/route_eval/along_track_error.png",
+      "results/route_eval/cross_track_error.png"
+    ],
+    "Robustness": [
+      "results/robustness_eval/scenario_plots.png",
+      "results/final_demo/robustness_summary.png"
+    ],
+    "Performance": [
+      "results/final_demo/performance_summary.png"
+    ]
+  },
+  "checks": {
+    "protected_files_unchanged": true,
+    "missing_plots": [],
+    "evidence_inconsistencies": [
+      "Position pooled RMSE: route_eval/test_summary.json 50.53 m vs audit-corrected 50.51 m (audit recomputed from CSV totals; audit value used)"
+    ]
+  },
+  "protected_sha256": {
+    "src/tram_odometry/config/model.json": "2e42fb2e7ba4764b92568f39d06af3ed88103d9f1d29b2d6aff849d2cdbf9727",
+    "src/tram_odometry/config/train_path_map.json": "9bce24fd6792c18cca12df7837be3c4b6c7368aa9c2f9f3224214fb531d6b627",
+    "results/splits.json": "dc8aca72aa611e6c821d6cfa0e6a5c63068f0517935e6632f032c15501f5412e",
+    "src/tram_odometry/tram_odometry/core.py": "39d7ede95c7eba1d71c278d67f48dd92e8ec7db3f112f974a178eba131b75d27",
+    "src/tram_odometry/tram_odometry/position.py": "4bc15de6472d0ebf67cda4e8cd11062c176ba361f9be1e1d0eaa95f966972bb5"
+  },
+  "note": "Evidence status is not an official jury score."
+}

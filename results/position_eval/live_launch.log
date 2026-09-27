@@ -1,0 +1,8 @@
+[INFO] [launch]: All log files can be found below /home/iam220904/rezerv_odometr/tram_odometry_solution/results/position_eval/ros_logs/2026-09-27-16-50-04-167336-iam220904-virtual-machine-119377
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [odometry_node-1]: process started with pid [119378]
+[odometry_node-1] [INFO] [1790520604.680930799] [tram_odometry]: Wheel scale=0.277779985; GNSS init=3.0 s; route=False
+[odometry_node-1] [WARN] [1790520604.681724736] [tram_odometry]: No route: direction held after initialization; turns are unobservable from scalar inputs.
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [odometry_node-1]: sending signal 'SIGINT' to process[odometry_node-1]
+[INFO] [odometry_node-1]: process has finished cleanly [pid 119378]

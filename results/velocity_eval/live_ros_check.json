@@ -1,0 +1,21 @@
+{
+  "bag": "30618_d4ba7005",
+  "live_messages": 1590,
+  "header_span_s": 79.450123776,
+  "live_rate_hz": 20.012555354637488,
+  "max_speed_mps": 7.159925999254587,
+  "live_minus_offline": {
+    "mean": -2.2408755945920766e-05,
+    "rmse": 0.0022130202124002046,
+    "max_abs": 0.020085197765348894
+  },
+  "live_vs_gnss": {
+    "rmse": 0.02687335224854625,
+    "bias": -0.009134296175022939
+  },
+  "offline_vs_gnss_same_interval": {
+    "rmse": 0.026485930382101355,
+    "bias": -0.009111887419077017
+  },
+  "note": "GNSS interpolated to live output stamps; first 1 s excluded; 80 s wall replay at rate 1.0 with --clock"
+}

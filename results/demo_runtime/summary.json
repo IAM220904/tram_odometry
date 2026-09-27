@@ -1,0 +1,86 @@
+{
+  "bag": "/home/iam220904/rezerv_odometr/tram_odometry_solution/dataset/data/30618_af7496f0",
+  "replay_wall_seconds": 15,
+  "counts": {
+    "/clock": 1461,
+    "/vehicle/front_bogie_velocity": 157,
+    "/vehicle/rear_bogie_velocity": 167,
+    "/vehicle/driver_position_cmd": 334,
+    "/sensing/gnss/master/fix": 164,
+    "/sensing/gnss/master/vel": 162,
+    "/sensing/gnss/rover/fix": 168,
+    "/sensing/gnss/rover/vel": 149,
+    "/result/velocity": 290,
+    "/result/position": 290
+  },
+  "first": {
+    "/result/velocity": 0.0,
+    "/result/position": [
+      -0.03249924832765917,
+      -0.2742707946979637,
+      -0.15620000467762793
+    ]
+  },
+  "last": {
+    "/result/velocity": 3.122072430057794,
+    "/result/position": [
+      4.771800666676098,
+      25.514366834976823,
+      -0.3130000234812973
+    ]
+  },
+  "invalid_outputs": [],
+  "launch_alive": true,
+  "bag_alive": true,
+  "odometry_subscriptions": [
+    [
+      "/clock",
+      [
+        "rosgraph_msgs/msg/Clock"
+      ]
+    ],
+    [
+      "/sensing/gnss/master/fix",
+      [
+        "sensor_msgs/msg/NavSatFix"
+      ]
+    ],
+    [
+      "/sensing/gnss/master/vel",
+      [
+        "geometry_msgs/msg/TwistStamped"
+      ]
+    ],
+    [
+      "/sensing/gnss/rover/fix",
+      [
+        "sensor_msgs/msg/NavSatFix"
+      ]
+    ],
+    [
+      "/sensing/gnss/rover/vel",
+      [
+        "geometry_msgs/msg/TwistStamped"
+      ]
+    ],
+    [
+      "/vehicle/driver_position_cmd",
+      [
+        "tram_vehicle_msgs/msg/DriverControllerCommand"
+      ]
+    ],
+    [
+      "/vehicle/front_bogie_velocity",
+      [
+        "tram_vehicle_msgs/msg/VelocitySensor"
+      ]
+    ],
+    [
+      "/vehicle/rear_bogie_velocity",
+      [
+        "tram_vehicle_msgs/msg/VelocitySensor"
+      ]
+    ]
+  ],
+  "passed": true
+}

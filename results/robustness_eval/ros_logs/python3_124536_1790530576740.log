@@ -1,0 +1,3 @@
+[INFO] [1790530577.214311818] [tram_odometry]: Wheel scale=0.277779985; GNSS init=3.0 s; route=False; path_map=False
+[WARN] [1790530577.215180602] [tram_odometry]: No route: direction held after initialization; turns are unobservable from scalar inputs.
+[WARN] [1790530593.072433867] [tram_odometry]: Clock moved backwards: starting new odometry episode

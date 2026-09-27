@@ -1,0 +1,114 @@
+[
+  {
+    "scenario": "clean",
+    "method": "model_observer",
+    "rmse_mps": 0.013313023470650557,
+    "max_error_mps": 0.03892971058610861,
+    "finite": true,
+    "rejected": 0
+  },
+  {
+    "scenario": "clean",
+    "method": "wheel_mean",
+    "rmse_mps": 0.01586112459354603,
+    "max_error_mps": 0.042243349958991594,
+    "finite": true,
+    "rejected": 0
+  },
+  {
+    "scenario": "front_slip_5mps_5s",
+    "method": "model_observer",
+    "rmse_mps": 0.011681850608114594,
+    "max_error_mps": 0.03987721755079221,
+    "finite": true,
+    "rejected": 51
+  },
+  {
+    "scenario": "front_slip_5mps_5s",
+    "method": "wheel_mean",
+    "rmse_mps": 1.4528568886672577,
+    "max_error_mps": 2.541180195850977,
+    "finite": true,
+    "rejected": 0
+  },
+  {
+    "scenario": "both_slip_5mps_2s",
+    "method": "model_observer",
+    "rmse_mps": 0.013398503636818876,
+    "max_error_mps": 0.03884085652214342,
+    "finite": true,
+    "rejected": 42
+  },
+  {
+    "scenario": "both_slip_5mps_2s",
+    "method": "wheel_mean",
+    "rmse_mps": 1.8308744432910937,
+    "max_error_mps": 5.038340127177842,
+    "finite": true,
+    "rejected": 0
+  },
+  {
+    "scenario": "both_locked_1s",
+    "method": "model_observer",
+    "rmse_mps": 0.013926161544262416,
+    "max_error_mps": 0.038864947945549844,
+    "finite": true,
+    "rejected": 22
+  },
+  {
+    "scenario": "both_locked_1s",
+    "method": "wheel_mean",
+    "rmse_mps": 2.111675028496969,
+    "max_error_mps": 8.272534740192206,
+    "finite": true,
+    "rejected": 0
+  },
+  {
+    "scenario": "both_missing_2s",
+    "method": "model_observer",
+    "rmse_mps": 0.013296586108776733,
+    "max_error_mps": 0.03885157072489154,
+    "finite": true,
+    "rejected": 0
+  },
+  {
+    "scenario": "both_missing_2s",
+    "method": "wheel_mean",
+    "rmse_mps": 0.09002941147823443,
+    "max_error_mps": 0.4092657764407148,
+    "finite": true,
+    "rejected": 0
+  },
+  {
+    "scenario": "rear_missing_10s",
+    "method": "model_observer",
+    "rmse_mps": 0.015009932186703332,
+    "max_error_mps": 0.041400784810418756,
+    "finite": true,
+    "rejected": 0
+  },
+  {
+    "scenario": "rear_missing_10s",
+    "method": "wheel_mean",
+    "rmse_mps": 0.019012225398782206,
+    "max_error_mps": 0.05611193657253288,
+    "finite": true,
+    "rejected": 0
+  },
+  {
+    "scenario": "nan_and_inf",
+    "method": "model_observer",
+    "rmse_mps": 0.013296586108776733,
+    "max_error_mps": 0.03885157072489154,
+    "finite": true,
+    "rejected": 40
+  },
+  {
+    "scenario": "nan_and_inf",
+    "method": "wheel_mean",
+    "rmse_mps": 0.09002941147823443,
+    "max_error_mps": 0.4092657764407148,
+    "finite": true,
+    "rejected": 0
+  }
+]

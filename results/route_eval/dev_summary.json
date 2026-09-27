@@ -1,0 +1,64 @@
+{
+  "split": "dev",
+  "bags_in_split": 20,
+  "bags_evaluated": 18,
+  "aggregate_median_over_bags": {
+    "no_map": {
+      "initial_error_m": 0.004201346290384611,
+      "final_error_m": 2834.003684135378,
+      "rmse_m": 1763.6124315400011,
+      "mae_m": 1435.0646039036262,
+      "max_error_m": 2908.4115205992794,
+      "final_drift_pct": 144.26648819792112,
+      "along_mean": -350.37621167826273,
+      "along_rmse": 1003.8316388488369,
+      "along_max_abs": 2864.7119273103344,
+      "cross_mean": -564.4628586902123,
+      "cross_rmse": 1915.0319571581967,
+      "cross_max_abs": 3371.8827227399797,
+      "pooled_rmse_m": 4029.3526419065297,
+      "pooled_cross_rmse_m": 2955.543391746005,
+      "pooled_along_rmse_m": 2772.363824221856,
+      "max_final_error_m": 9720.74215461516
+    },
+    "path_map": {
+      "initial_error_m": 0.01759521140252692,
+      "final_error_m": 5.763889203780931,
+      "rmse_m": 4.367477436821,
+      "mae_m": 3.728567523272055,
+      "max_error_m": 8.547756322255552,
+      "final_drift_pct": 0.13803043820546126,
+      "along_mean": -2.9743017438669623,
+      "along_rmse": 4.11544854968883,
+      "along_max_abs": 9.94298255487828,
+      "cross_mean": -0.23022127694206665,
+      "cross_rmse": 1.1790620014946176,
+      "cross_max_abs": 5.095941776779765,
+      "pooled_rmse_m": 217.83510291980545,
+      "pooled_cross_rmse_m": 180.41972936295946,
+      "pooled_along_rmse_m": 123.13851516615088,
+      "max_final_error_m": 1487.7624067489078,
+      "map_coverage_pct_median": 96.82584269662922,
+      "map_coverage_pct_min": 81.68412883197517,
+      "map_residual_rmse_m_median": 1.3390564840932153
+    }
+  },
+  "failures": {
+    "path_map_final_error_over_50m": [
+      "30618_21dd3af3"
+    ],
+    "path_map_max_error_over_100m": [
+      "30618_21dd3af3"
+    ]
+  },
+  "not_evaluated": [
+    {
+      "bag": "30618_6236f680",
+      "status": "no GNSS reference"
+    },
+    {
+      "bag": "30618_3ba2326f",
+      "status": "no GNSS reference"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "test_utc": "2026-09-27T14:50:03.588189+00:00",
+  "bag": "30618_d4ba7005",
+  "split": "test",
+  "commands": [
+    [
+      "ros2",
+      "launch",
+      "tram_odometry",
+      "odometry.launch.py",
+      "use_sim_time:=true"
+    ],
+    [
+      "ros2",
+      "bag",
+      "play",
+      "/home/iam220904/rezerv_odometr/tram_odometry_solution/dataset/data/30618_d4ba7005",
+      "--clock",
+      "100",
+      "--rate",
+      "1.0"
+    ]
+  ],
+  "duration_s": 45.01545985899975,
+  "output_count": 874,
+  "receipt_rate_hz": 19.97774526273049,
+  "checks": {
+    "published": true,
+    "valid_timestamps": true,
+    "increasing_timestamps": true,
+    "populated_frames": true,
+    "finite_pose_twist_covariance": true,
+    "normalized_orientation": true,
+    "motion_observed": true,
+    "position_changes_while_moving": true,
+    "no_large_post_warmup_jumps": true,
+    "no_post_warmup_timestamp_gap_over_250ms": true,
+    "node_and_player_alive": true,
+    "inputs_received": true,
+    "gnss_initialization_locked": true
+  },
+  "status": "VERIFIED",
+  "max_post_warmup_step_m": 0.27723208131706595,
+  "max_post_warmup_header_dt_s": 0.09203982353210449,
+  "moving_intervals": 382,
+  "first": {
+    "receipt": 14500.507646871,
+    "stamp": 1787727405.1682656,
+    "stamp_valid": true,
+    "frame_id": "odom",
+    "child_frame_id": "base_link",
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "velocity": 0.0,
+    "finite": true,
+    "quaternion_norm": 1.0
+  },
+  "last": {
+    "receipt": 14544.206271942,
+    "stamp": 1787727448.8789184,
+    "stamp_valid": true,
+    "frame_id": "odom",
+    "child_frame_id": "base_link",
+    "x": 32.772366295838516,
+    "y": 33.66384359467347,
+    "z": 0.003699998783928465,
+    "velocity": 2.884721270623555,
+    "finite": true,
+    "quaternion_norm": 1.0
+  },
+  "input_counts": {
+    "/vehicle/front_bogie_velocity": 381,
+    "/vehicle/rear_bogie_velocity": 381,
+    "/vehicle/driver_position_cmd": 826
+  },
+  "continuity_definition": "After 5 s wall warmup: step <= 40 m/s * Header dt + 1 m tolerance for estimator correction; max dt <= 0.25 s; finite outputs. Not an accuracy claim.",
+  "process_exit_codes": [
+    0,
+    0
+  ],
+  "scope": "Short ROS output sanity check only; accuracy is full-bag offline evaluation."
+}

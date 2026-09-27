@@ -1,0 +1,20 @@
+7379 nodes from 37 train bags; 701/441575 fixes rejected; origin (55.804825103333336, 37.420043015, 167.4321)
+TRAIN exact reconstruction: True components: 2 spacing: {'median': 1.390050718499163, 'max': 5.296982254076362}
+{
+  "scope": "DEV geometry only; no estimator replay or tuning; TEST not read",
+  "moving_definition": "GNSS displacement >=1.5 m over centered +/-1s window, span >=1.6s, no gap >0.25s; directions NOT carried through stops",
+  "coverage_definition": "Within 3 m of same-direction TRAIN node (dot >=0.7), among up to 64 nearest nodes within 8m",
+  "pooled_moving_samples": 106249,
+  "pooled_covered_samples": 102767,
+  "pooled_coverage_pct": 96.72279268510762,
+  "covered_nearest_node_rmse_m": 0.6959469823598998,
+  "covered_lateral_rmse_m": 0.432488231769031,
+  "lateral_definition": "Signed offset normal to nearest compatible map-node tangent; conditional on coverage, NOT graph station error",
+  "bags_without_moving_reference": [
+    "30618_6236f680",
+    "30618_3ba2326f",
+    "30618_98161270",
+    "30618_45ff6f99",
+    "30639_0ab96c59"
+  ]
+}

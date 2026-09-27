@@ -1,0 +1,6 @@
+1790520604.1686516 [INFO] [launch]: All log files can be found below /home/iam220904/rezerv_odometr/tram_odometry_solution/results/position_eval/ros_logs/2026-09-27-16-50-04-167336-iam220904-virtual-machine-119377
+1790520604.1688180 [INFO] [launch]: Default logging verbosity is set to INFO
+1790520604.2299039 [INFO] [odometry_node-1]: process started with pid [119378]
+1790520652.0422926 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1790520652.0432577 [INFO] [odometry_node-1]: sending signal 'SIGINT' to process[odometry_node-1]
+1790520652.1903107 [INFO] [odometry_node-1]: process has finished cleanly [pid 119378]

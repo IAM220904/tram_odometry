@@ -1,0 +1,23 @@
+test_clock_reset_allows_immediate_diagnostics (test_node_robustness.NodeRobustnessTests) ... FAIL
+test_invalid_ros_input_is_counted_without_state_access (test_node_robustness.NodeRobustnessTests) ... FAIL
+
+======================================================================
+FAIL: test_clock_reset_allows_immediate_diagnostics (test_node_robustness.NodeRobustnessTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/iam220904/rezerv_odometr/tram_odometry_solution/tests/test_node_robustness.py", line 22, in test_clock_reset_allows_immediate_diagnostics
+    self.assertTrue(10.-node.last_diagnostic>=1.,'Diagnostics must resume in the new clock episode')
+AssertionError: False is not true : Diagnostics must resume in the new clock episode
+
+======================================================================
+FAIL: test_invalid_ros_input_is_counted_without_state_access (test_node_robustness.NodeRobustnessTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/iam220904/rezerv_odometr/tram_odometry_solution/tests/test_node_robustness.py", line 30, in test_invalid_ros_input_is_counted_without_state_access
+    self.assertEqual(node.invalid_inputs,2)
+AssertionError: 0 != 2
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (failures=2)

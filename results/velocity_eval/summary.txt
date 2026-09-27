@@ -1,0 +1,31 @@
+Velocity accuracy, split=test: 20/20 bags with GNSS reference
+Error = estimate - GNSS master speed [m/s]; positive bias = overestimate.
+
+method          regime        reference   samples    RMSE     MAE     bias  p95|e|  max|e|
+model_observer  acceleration  raw           54433  0.0563  0.0338  -0.0190   0.105   1.422
+model_observer  acceleration  gnss_agree    54140  0.0564  0.0338  -0.0190   0.105   1.422
+model_observer  braking       raw           53444  0.0652  0.0374  -0.0221   0.119   1.793
+model_observer  braking       gnss_agree    53109  0.0652  0.0374  -0.0221   0.119   1.793
+model_observer  steady        raw           43156  0.0629  0.0429  -0.0339   0.144   1.313
+model_observer  steady        gnss_agree    42694  0.0630  0.0429  -0.0338   0.145   1.313
+model_observer  stop          raw           68864  0.0868  0.0102  -0.0070   0.028  12.057
+model_observer  stop          gnss_agree    68287  0.0185  0.0089  -0.0082   0.028   1.038
+model_observer  unclassified  raw            3438  0.0431  0.0318  -0.0225   0.085   0.230
+model_observer  unclassified  gnss_agree     3411  0.0430  0.0318  -0.0224   0.085   0.230
+wheel_mean      acceleration  raw           54433  0.0910  0.0678  -0.0639   0.163   2.262
+wheel_mean      acceleration  gnss_agree    54140  0.0911  0.0678  -0.0640   0.163   2.262
+wheel_mean      braking       raw           53444  0.0843  0.0513  +0.0230   0.128   2.594
+wheel_mean      braking       gnss_agree    53109  0.0844  0.0513  +0.0230   0.128   2.594
+wheel_mean      steady        raw           43156  0.0649  0.0429  -0.0336   0.143   1.833
+wheel_mean      steady        gnss_agree    42694  0.0651  0.0429  -0.0336   0.144   1.833
+wheel_mean      stop          raw           68864  0.0876  0.0112  -0.0060   0.031  12.049
+wheel_mean      stop          gnss_agree    68287  0.0222  0.0099  -0.0072   0.031   1.139
+wheel_mean      unclassified  raw            3438  0.0943  0.0522  -0.0187   0.129   1.510
+wheel_mean      unclassified  gnss_agree     3411  0.0945  0.0524  -0.0186   0.128   1.510
+model_observer  overall       raw          223335  0.0701  0.0291  -0.0190   0.102  12.057
+model_observer  overall       gnss_agree   221641  0.0519  0.0287  -0.0194   0.102   1.793
+wheel_mean      overall       raw          223335  0.0839  0.0413  -0.0187   0.131  12.049
+wheel_mean      overall       gnss_agree   221641  0.0696  0.0410  -0.0191   0.131   2.594
+
+reference=raw: every matched GNSS master sample; gnss_agree: rover speed within 0.5 m/s of master (metric filter only).
+Stops (model_observer): mean estimate 0.0046 m/s, exactly zero 13.6%, >0.1 m/s 1.66%

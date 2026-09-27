@@ -1,0 +1,2 @@
+bag,initial_alignment_2d_m,samples,rmse_m,mae_m,max_m,final_m,geometric_final_drift_pct,relative_distance_error_m,relative_distance_drift_pct,reference_distance_m,reference_time_coverage_pct,along_track,cross_track
+30618_d4ba7005,0.0024386289800041243,11578,1804.1982456974124,1495.6320350938058,2862.791403760737,2784.7882997717024,52.27002121257502,-7.58717640809689,-0.14241002095946143,5327.696900000001,99.73222769283922,NOT VERIFIED,NOT VERIFIED

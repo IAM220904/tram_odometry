@@ -1,0 +1,9 @@
+[INFO] [1790520607.234551205] [rosbag2_storage]: Opened database '/home/iam220904/rezerv_odometr/tram_odometry_solution/dataset/data/30618_d4ba7005/30618_d4ba7005_0.db3' for READ_ONLY.
+[INFO] [1790520607.234677911] [rosbag2_player]: Set rate to 1
+[INFO] [1790520607.248158948] [rosbag2_player]: Adding keyboard callbacks.
+[INFO] [1790520607.248297554] [rosbag2_player]: Press SPACE for Pause/Resume
+[INFO] [1790520607.248337456] [rosbag2_player]: Press CURSOR_RIGHT for Play Next Message
+[INFO] [1790520607.248378958] [rosbag2_player]: Press CURSOR_UP for Increase Rate 10%
+[INFO] [1790520607.248414360] [rosbag2_player]: Press CURSOR_DOWN for Decrease Rate 10%
+[INFO] [1790520607.249091192] [rosbag2_storage]: Opened database '/home/iam220904/rezerv_odometr/tram_odometry_solution/dataset/data/30618_d4ba7005/30618_d4ba7005_0.db3' for READ_ONLY.
+[INFO] [1790520651.876972322] [rclcpp]: signal_handler(SIGINT/SIGTERM)

@@ -1,0 +1,44 @@
+{
+  "audit_utc": "2026-09-27T17:18:22.779100+00:00",
+  "notice": "Existing map and DEV/TEST results predate this turn. This is a post-evaluation preservation record, NOT proof of a pre-TEST freeze. No map or runtime tuning and no TEST replay performed in this turn.",
+  "split_counts": {
+    "train": 57,
+    "dev": 20,
+    "test": 20
+  },
+  "frozen_existing_files": {
+    "src/tram_odometry/config/train_path_map.json": "9bce24fd6792c18cca12df7837be3c4b6c7368aa9c2f9f3224214fb531d6b627",
+    "src/tram_odometry/tram_odometry/position.py": "4bc15de6472d0ebf67cda4e8cd11062c176ba361f9be1e1d0eaa95f966972bb5",
+    "tools/build_path_map.py": "be316dda0055dd120dcb356872fdc868673b70e3b2dc8271fcb574eeff839197",
+    "tools/route_eval.py": "976a833015fbb2d3bb010189319fbabc6854d366f751c5c375562e572e6a655a",
+    "results/splits.json": "dc8aca72aa611e6c821d6cfa0e6a5c63068f0517935e6632f032c15501f5412e"
+  },
+  "protected_files": {
+    "src/tram_odometry/tram_odometry/core.py": "39d7ede95c7eba1d71c278d67f48dd92e8ec7db3f112f974a178eba131b75d27",
+    "src/tram_odometry/config/model.json": "2e42fb2e7ba4764b92568f39d06af3ed88103d9f1d29b2d6aff849d2cdbf9727",
+    "tools/calibrate.py": "0b9e2f2dfec59c87fac008fdf8295ba6f14901b6beca240331d08696a02fda1e",
+    "tools/evaluate.py": "3f7e7b8bd9dab21fcec8087dd51a1293170565bc41f8a96fd7d5b334fc05038a",
+    "tools/velocity_eval.py": "30178db48d8cb39468c58e7a8415e28350937a0319b234b9917f4225e2cfd8e4",
+    "tools/measure_performance.py": "bb82255600f1d481c41d57d71d0e75a6e2eed90ea121969f5663948008c48b06",
+    "results/velocity_eval/velocity_error.png": "497c790dae835ac0cea4093a54072bd0a0836c8562a734deea9153172ed45ce7",
+    "results/velocity_eval/regime_metrics.png": "56b8b0a03bf5898e5b74da995559feffcf1c6f37db6d2dd078076baa6d1808f0",
+    "results/velocity_eval/velocity_zoom_transients.png": "433833adb64a7b50eab7e68a711d3785eb33736f3b895fe4407bf2685eaec11b",
+    "results/velocity_eval/velocity_comparison.png": "03801a6f6e30ce5c46c01153292737f45abbb14575a92057848b2a555af28587",
+    "results/velocity_eval/summary.json": "b11b0321edff7c0c29cdcd3dccf152efcbd2163fb00084ec12023a0a44067195",
+    "results/velocity_eval/per_bag_metrics.csv": "3ef8518a2b2326f6494ca87a3752ce3080da4769fc714cee43394c6f2ae06cc9",
+    "results/velocity_eval/live_vs_offline.png": "fe7627f268de9a56007306c152f6dc25c1f0440a986b5920fa59ab902318a00e",
+    "results/velocity_eval/regime_metrics.csv": "eea37035eb3d9862b5c31579acdd0275b9b799e06c9a3fe2579bbb29fdceb00e",
+    "results/velocity_eval/live_ros_check.json": "6097d927b4dfeb5e1c9eb0dcf8b792a3bc955f5c56a9de9ef7852c107b81a327",
+    "results/velocity_eval/summary.txt": "915a0e0cc6de5a2fede5beefca81e624fdd599e63b25695261e8f8e1049a6319",
+    "results/performance/samples.json": "b6383b93daacab26db747c626e3075a46c4234bee119f5e3dae9e169ccb4f68e",
+    "results/performance/build.log": "3036440099b84e6f9a0df3d70e816c2311bcc621a418de502cad536b2ebf7e62",
+    "results/performance/launch.log": "d87eda53d3ec674334bc620fa6c38fff176a8bbaa4cf562c39acca63fea66904",
+    "results/performance/performance.txt": "4351e8690b4ffe745e2f048a6612341fe0bcedf277bfc0a1302f785252bbc350",
+    "results/performance/bag.log": "f9e065041682eee2b465e13f27f7937a967a9155c97c6c381d0b471e19753e8e",
+    "results/performance/performance.json": "69ede5ed528a5b47da682069dfc61e7411b9f66f8e79c8f434c3a47816125476",
+    "results/performance/ros_logs/python3_116700_1790517003888.log": "28363591704191b3608b0dcc5b67381656774866fef28d29f29e0b5395557e1f",
+    "results/performance/ros_logs/python3_116671_1790517002766.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/performance/ros_logs/python3_116723_1790517006539.log": "98fc0b70e9e52a08279cc6f7f4e57a3901e35c2bf8eb5aa601b1ae1540536366",
+    "results/performance/ros_logs/2026-09-27-15-50-03-480942-iam220904-virtual-machine-116699/launch.log": "d64c49bae5662b5b1a8e3d5f4dabd5003760084b6d0f424c4d9d5c5b2d21cf20"
+  }
+}

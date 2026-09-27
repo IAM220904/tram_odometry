@@ -1,0 +1,23 @@
+{
+  "no_map": {
+    "all_bags_pooled_position_rmse_m": 4229.159255193146,
+    "samples": 230637,
+    "global_along_max_abs_m": 9710.607400531406,
+    "global_cross_max_abs_m": 8928.374082684431,
+    "median_endpoint_error_over_covered_speed_distance_pct": 135.28242468986622
+  },
+  "path_map": {
+    "all_bags_pooled_position_rmse_m": 50.509775833746616,
+    "samples": 230637,
+    "global_along_max_abs_m": 221.64491364368592,
+    "global_cross_max_abs_m": 195.6765135150788,
+    "median_endpoint_error_over_covered_speed_distance_pct": 0.14398193782260413
+  },
+  "caveats": [
+    "Existing saved metrics only; no TEST replay and no map/runtime changes.",
+    "Original travelled_m sums noisy GNSS fixes without outlier/gap rejection; whole-run drift NOT VERIFIED.",
+    "Covered GNSS-speed distance is an alternative denominator with different coverage, not verified whole-run drift.",
+    "Pooled along/cross metrics use incorrect direction-sample weights in the original evaluator; NOT VERIFIED.",
+    "Along/cross are local reference-direction components, not graph arc-length station errors."
+  ]
+}

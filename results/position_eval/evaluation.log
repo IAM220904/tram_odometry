@@ -1,0 +1,71 @@
+Matplotlib created a temporary config/cache directory at /tmp/matplotlib-fa6am_zo because the default path (/home/iam220904/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Bag: 30618_d4ba7005 (test; full offline replay)
+Real route found/integrated: NO / NO; origin LLA: (55.7998495, 37.38951738666667, 174.4304)
+A. Relative distance (covered GNSS intervals): {
+  "raw": {
+    "samples": 11542,
+    "rmse": 0.026370143917807114,
+    "mae": 0.01812685497813879,
+    "bias": -0.006918135949213384
+  },
+  "gnss_agree": {
+    "samples": 11509,
+    "rmse": 0.02638679214821599,
+    "mae": 0.018131403083870644,
+    "bias": -0.006895164540237357
+  },
+  "reference_samples": 11571,
+  "match_coverage": 0.9974937343358395,
+  "reference_distance_m": 5327.698399999999,
+  "integrated_distance_error_m": -7.58717640809689,
+  "relative_distance_drift_pct": -0.14241002095946143,
+  "clean_reference_distance_m": 5318.389500000001,
+  "clean_integrated_distance_error_m": -7.55028613256318,
+  "reference_duration_s": 1155.1
+}
+B. No-map geometric position: NOT VERIFIED as route capability; diagnostic GNSS errors below.
+{
+  "status": "NOT VERIFIED",
+  "status_reason": "No independent real route; diagnostic GNSS comparison does not establish route/pathgraph capability.",
+  "metric_type": "horizontal Euclidean error in shared ENU, NOT along/cross-track error",
+  "position_2d": {
+    "samples": 11578,
+    "rmse_m": 1804.1982456974124,
+    "mae_m": 1495.6320350938058,
+    "max_m": 2862.791403760737,
+    "final_m": 2784.7882997717024
+  },
+  "position_3d": {
+    "samples": 11578,
+    "rmse_m": 1804.2426300756906,
+    "mae_m": 1495.694097438517,
+    "max_m": 2862.7948155889826,
+    "final_m": 2784.7991706632934
+  },
+  "initial_alignment_error_2d_m": 0.0024386289800041243,
+  "initial_alignment_error_3d_m": 0.00251135638423803,
+  "initial_alignment_sample_s": 0.5023397310000001,
+  "final_matched_sample_s": 1158.2023397310002,
+  "final_error_pct_of_reference_distance": 52.27002121257502,
+  "reference_distance_m": 5327.696900000001,
+  "reference_covered_duration_s": 1154.6,
+  "reference_time_coverage_pct": 99.73222769283922,
+  "matched_fix_count": 11578,
+  "total_fix_count": 11609,
+  "along_track": "NOT VERIFIED",
+  "cross_track": "NOT VERIFIED"
+}
+Evidence for causes: {
+  "held_heading_deg": 45.7613797754833,
+  "estimated_heading_range_after_init_deg": 0.0,
+  "moving_reference_heading_error_median_deg": 37.8393797754833,
+  "moving_reference_heading_error_max_deg": 68.47337977548331,
+  "early_moving_heading_error_median_deg": 0.4620000000000012,
+  "reference_endpoint_displacement_2d_m": 4706.991191538658,
+  "estimate_endpoint_displacement_2d_m": 5342.903710318307,
+  "coordinate_origin_zero_error_m": 0.0,
+  "reference_bad_status_count": 0,
+  "reference_max_header_gap_s": 0.10000000000013642,
+  "interpretation": "Compare small distance drift and initial alignment with large later heading differences and fixed estimated heading; no route was supplied. No claim of perfect GNSS ground truth or calibrated antenna lever arm."
+}
+GNSS removal after initialization produces identical outputs: True

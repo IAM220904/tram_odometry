@@ -1,0 +1,32 @@
+{
+  "bag": "30618_af7496f0",
+  "split": "dev",
+  "seconds": 20.018583899000078,
+  "commands": [
+    [
+      "ros2",
+      "launch",
+      "tram_odometry",
+      "odometry.launch.py",
+      "use_sim_time:=true",
+      "path_map_file:=/home/iam220904/rezerv_odometr/tram_odometry_solution/src/tram_odometry/config/train_path_map.json"
+    ],
+    [
+      "ros2",
+      "bag",
+      "play",
+      "/home/iam220904/rezerv_odometr/tram_odometry_solution/dataset/data/30618_af7496f0",
+      "--clock",
+      "100"
+    ]
+  ],
+  "position_messages": 386,
+  "finite": true,
+  "path_map_diagnostics": 18,
+  "last_status": "ok; path_map",
+  "alive": true,
+  "exit_codes": [
+    0,
+    0
+  ]
+}

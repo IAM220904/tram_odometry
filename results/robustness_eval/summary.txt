@@ -1,0 +1,22 @@
+Synthetic cases: 15; passed 13; failed ['forward_header_spike', 'both_slip_long']
+Declared before running: finite, no exceptions, state time advances at every 20Hz tick, error <=1m/s, distance deviation <=10m, recovery <=5s sustained for 1s, sane wheels accepted.
+clean: PASS; max speed error=0.0085 m/s; distance deviation=0.000 m; recovery=0.0 s; rejected=0; downweighted=0
+front_spike: PASS; max speed error=0.0085 m/s; distance deviation=0.000 m; recovery=0.5000000000000018 s; rejected=2; downweighted=1
+rear_spike: PASS; max speed error=0.0085 m/s; distance deviation=0.000 m; recovery=0.5000000000000018 s; rejected=2; downweighted=1
+front_slip_5mps: PASS; max speed error=0.0085 m/s; distance deviation=0.000 m; recovery=0.5 s; rejected=51; downweighted=50
+moderate_disagreement: PASS; max speed error=0.0085 m/s; distance deviation=0.000 m; recovery=0.40000000000000036 s; rejected=50; downweighted=50
+both_missing: PASS; max speed error=0.0143 m/s; distance deviation=0.020 m; recovery=0.0 s; rejected=0; downweighted=0
+command_missing: PASS; max speed error=0.0085 m/s; distance deviation=0.001 m; recovery=0.0 s; rejected=0; downweighted=0
+nan_inf: PASS; max speed error=0.0143 m/s; distance deviation=0.020 m; recovery=0.0 s; rejected=40; downweighted=0
+bad_command: PASS; max speed error=0.0085 m/s; distance deviation=0.000 m; recovery=0.0 s; rejected=40; downweighted=0
+rear_missing_long: PASS; max speed error=0.0085 m/s; distance deviation=0.000 m; recovery=0.0 s; rejected=0; downweighted=0
+both_slip_short: PASS; max speed error=0.0146 m/s; distance deviation=0.022 m; recovery=0.5 s; rejected=42; downweighted=0
+both_locked_short: PASS; max speed error=0.0132 m/s; distance deviation=0.008 m; recovery=0.5 s; rejected=22; downweighted=0
+backward_header: PASS; max speed error=0.0530 m/s; distance deviation=0.015 m; recovery=0.0 s; rejected=0; downweighted=0
+forward_header_spike: FAIL; max speed error=3.1965 m/s; distance deviation=580.374 m; recovery=None s; rejected=0; downweighted=0
+both_slip_long: FAIL; max speed error=5.1897 m/s; distance deviation=55.148 m; recovery=3.400000000000002 s; rejected=120; downweighted=0
+Trust reduction: {"normal_accepted": true, "disagreement_accepted": true, "normal_velocity_update": 0.044736486929418895, "downweighted_velocity_update": 0.024062990065078615, "update_magnitude_ratio": 0.5378828718277093, "nominal_R": 0.0006250000000000001, "disagreement_R": 0.0056250000000000015, "explanation": "Identical predicted state and rear measurement; only stored opposing wheel differs. Code increases R ninefold."}
+Real labeled slip validation: NOT VERIFIED. Slip ratio / adhesion coefficient: not implemented.
+
+ROS operational checks: real DEV bag 390 messages/output, synthetic ROS 361/output; finite, no crashes, recovery and clock-reset diagnostics verified.
+15 unit tests pass; build succeeds. Core/model/split/protected evaluation files unchanged.

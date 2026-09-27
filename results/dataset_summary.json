@@ -1,0 +1,55 @@
+{
+  "bags": 122,
+  "messages": 8788325,
+  "topics": {
+    "front": {
+      "count": 1239220,
+      "bags_with_messages": 122,
+      "median_header_hz": 9.808702568352833,
+      "header_backwards": 25,
+      "median_receipt_minus_header_s": 0.050444922999986375
+    },
+    "rear": {
+      "count": 1237408,
+      "bags_with_messages": 122,
+      "median_header_hz": 9.80883877838617,
+      "header_backwards": 27,
+      "median_receipt_minus_header_s": 0.05043918650000023
+    },
+    "command": {
+      "count": 2652391,
+      "bags_with_messages": 122,
+      "median_header_hz": 20.000038900080483,
+      "header_backwards": 75,
+      "median_receipt_minus_header_s": 0.0009256309999727819
+    },
+    "master_vel": {
+      "count": 895750,
+      "bags_with_messages": 86,
+      "median_header_hz": 9.999999999997726,
+      "header_backwards": 45,
+      "median_receipt_minus_header_s": 0.08485095849994195
+    },
+    "rover_vel": {
+      "count": 915137,
+      "bags_with_messages": 87,
+      "median_header_hz": 9.999999999997726,
+      "header_backwards": 46,
+      "median_receipt_minus_header_s": 0.08890316949998578
+    },
+    "master_fix": {
+      "count": 927147,
+      "bags_with_messages": 86,
+      "median_header_hz": 9.999999999997726,
+      "header_backwards": 44,
+      "median_receipt_minus_header_s": 0.04451539550001371
+    },
+    "rover_fix": {
+      "count": 921272,
+      "bags_with_messages": 87,
+      "median_header_hz": 9.999999999997726,
+      "header_backwards": 45,
+      "median_receipt_minus_header_s": 0.08056478899993635
+    }
+  }
+}

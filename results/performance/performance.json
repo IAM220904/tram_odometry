@@ -1,0 +1,258 @@
+{
+  "test_utc": "2026-09-27T13:50:02.750964+00:00",
+  "bag": "/home/iam220904/rezerv_odometr/tram_odometry_solution/dataset/data/30618_af7496f0",
+  "launch_command": "ros2 launch tram_odometry odometry.launch.py use_sim_time:=true",
+  "bag_command": "ros2 bag play /home/iam220904/rezerv_odometr/tram_odometry_solution/dataset/data/30618_af7496f0 --clock 100 --rate 1.0",
+  "ros_domain_id": "74",
+  "observation_seconds": 45.001539645001685,
+  "measurement_window_seconds": 20,
+  "warmup_seconds": 5,
+  "rates": {
+    "/result/velocity": {
+      "count_20s": 400,
+      "hz_count_over_window": 20.0,
+      "hz_interarrival": 19.99904146248329,
+      "interval_ms": {
+        "samples": 399,
+        "mean": 50.00239645864655,
+        "median": 50.05160300061107,
+        "max": 55.700590999549604,
+        "min": 46.54744199979177
+      },
+      "count_entire_run": 889,
+      "counts_per_5s": [
+        89,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "max_gap_entire_run_s": 0.055700590999549604
+    },
+    "/result/position": {
+      "count_20s": 400,
+      "hz_count_over_window": 20.0,
+      "hz_interarrival": 19.998995152242617,
+      "interval_ms": {
+        "samples": 399,
+        "mean": 50.002512245614675,
+        "median": 50.056634998327354,
+        "max": 56.09486899993499,
+        "min": 44.66064999905939
+      },
+      "count_entire_run": 889,
+      "counts_per_5s": [
+        89,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "max_gap_entire_run_s": 0.05609486899993499
+    }
+  },
+  "latency_proxies": {
+    "/result/velocity": {
+      "/vehicle/front_bogie_velocity": {
+        "delivery_latency_proxy_ms": {
+          "samples": 191,
+          "mean": 8.280501743460196,
+          "median": 8.330201999342535,
+          "max": 12.425963999703526,
+          "min": 3.5439889998087892
+        },
+        "header_delta_ms": {
+          "samples": 191,
+          "mean": 50.49087863942091,
+          "median": 54.86559867858887,
+          "max": 89.95199203491211,
+          "min": 7.318258285522461
+        },
+        "unmatched": 0
+      },
+      "/vehicle/rear_bogie_velocity": {
+        "delivery_latency_proxy_ms": {
+          "samples": 191,
+          "mean": 8.166260355972279,
+          "median": 8.259105999968597,
+          "max": 12.338070000623702,
+          "min": 2.321861999007524
+        },
+        "header_delta_ms": {
+          "samples": 191,
+          "mean": 50.49087863942091,
+          "median": 54.86559867858887,
+          "max": 89.95199203491211,
+          "min": 7.318258285522461
+        },
+        "unmatched": 0
+      },
+      "/vehicle/driver_position_cmd": {
+        "delivery_latency_proxy_ms": {
+          "samples": 400,
+          "mean": 10.52154519249143,
+          "median": 10.479724500328302,
+          "max": 14.512437999655958,
+          "min": 3.8831700003356673
+        },
+        "header_delta_ms": {
+          "samples": 400,
+          "mean": 9.96555745601654,
+          "median": 9.990334510803223,
+          "max": 11.527061462402344,
+          "min": 0.0
+        },
+        "unmatched": 0
+      },
+      "all_inputs_pooled": {
+        "delivery_latency_proxy_ms": {
+          "samples": 782,
+          "mean": 9.398912580547538,
+          "median": 9.45673149999493,
+          "max": 14.512437999655958,
+          "min": 2.321861999007524
+        },
+        "header_delta_ms": {
+          "samples": 782,
+          "mean": 29.76181409548006,
+          "median": 10.642409324645996,
+          "max": 89.95199203491211,
+          "min": 0.0
+        },
+        "unmatched": 0
+      }
+    },
+    "/result/position": {
+      "/vehicle/front_bogie_velocity": {
+        "delivery_latency_proxy_ms": {
+          "samples": 191,
+          "mean": 8.742303036704385,
+          "median": 8.766277998802252,
+          "max": 12.990829000045778,
+          "min": 4.387241000586073
+        },
+        "header_delta_ms": {
+          "samples": 191,
+          "mean": 50.49087863942091,
+          "median": 54.86559867858887,
+          "max": 89.95199203491211,
+          "min": 7.318258285522461
+        },
+        "unmatched": 0
+      },
+      "/vehicle/rear_bogie_velocity": {
+        "delivery_latency_proxy_ms": {
+          "samples": 191,
+          "mean": 8.628061649216466,
+          "median": 8.620585000244319,
+          "max": 12.836538000556175,
+          "min": 4.187151998849004
+        },
+        "header_delta_ms": {
+          "samples": 191,
+          "mean": 50.49087863942091,
+          "median": 54.86559867858887,
+          "max": 89.95199203491211,
+          "min": 7.318258285522461
+        },
+        "unmatched": 0
+      },
+      "/vehicle/driver_position_cmd": {
+        "delivery_latency_proxy_ms": {
+          "samples": 400,
+          "mean": 10.94291583501672,
+          "median": 10.812898999574827,
+          "max": 15.800361999936285,
+          "min": 4.173153000010643
+        },
+        "header_delta_ms": {
+          "samples": 400,
+          "mean": 9.96555745601654,
+          "median": 9.990334510803223,
+          "max": 11.527061462402344,
+          "min": 0.0
+        },
+        "unmatched": 0
+      },
+      "all_inputs_pooled": {
+        "delivery_latency_proxy_ms": {
+          "samples": 782,
+          "mean": 9.840033234037813,
+          "median": 9.959654498743475,
+          "max": 15.800361999936285,
+          "min": 4.173153000010643
+        },
+        "header_delta_ms": {
+          "samples": 782,
+          "mean": 29.76181409548006,
+          "median": 10.642409324645996,
+          "max": 89.95199203491211,
+          "min": 0.0
+        },
+        "unmatched": 0
+      }
+    }
+  },
+  "latency_method": "Observer monotonic receipt of each input to next received output with output Header >= input Header. All inputs, including potentially rejected ones, are included. Per-source values are reported separately.",
+  "latency_limitations": "No accepted-input ID or publication timestamp is exposed. DDS scheduling differs between observer and estimator; the candidate output may not include the input. Output Header is an extrapolated source clock, not wall publication time. Neither proxy nor Header delta proves causal latency compliance. No bag-recording age is treated as processing latency.",
+  "resources": {
+    "scope": "Odometry node PID only, including its threads; excludes bag player, launch and observer. Decimal MB. /proc sampled about every 0.5 s; between-sample peaks unverified.",
+    "pid": 116700,
+    "cpu_percent_mean": 13.779723273159174,
+    "cpu_percent_sampled_peak": 19.937435927278656,
+    "effective_cores_mean": 0.13779723273159175,
+    "effective_cores_sampled_peak": 0.19937435927278657,
+    "rss_mb": {
+      "samples": 89,
+      "mean": 60.96145833707865,
+      "median": 60.98944,
+      "max": 60.98944,
+      "min": 59.809792
+    },
+    "first_5s_mean_rss_mb": 60.7404032,
+    "last_5s_mean_rss_mb": 60.98944,
+    "rss_growth_mb": 0.24903679999999895,
+    "rss_after_warmup_range_mb": [
+      60.98944,
+      60.98944
+    ]
+  },
+  "node_and_player_alive_entire_observation": true,
+  "requirements": {
+    "velocity_rate_ge_10_hz": "VERIFIED",
+    "position_rate_ge_10_hz": "VERIFIED",
+    "recommended_observed_rate_20_to_50_hz": "VERIFIED",
+    "causal_input_to_output_latency_le_100_ms": "NOT VERIFIED",
+    "causal_peak_latency_le_250_ms": "NOT VERIFIED",
+    "node_cpu_le_2_cores_sampled": "VERIFIED",
+    "node_rss_le_0_5_gb_sampled": "VERIFIED",
+    "short_run_alive_finite_continuous_outputs": "VERIFIED",
+    "long_term_memory_stability": "NOT VERIFIED",
+    "colcon_build_without_internet": "VERIFIED",
+    "short_run_rss_plateau_after_warmup": "VERIFIED"
+  },
+  "input_counts": {
+    "/vehicle/front_bogie_velocity": 453,
+    "/vehicle/rear_bogie_velocity": 463,
+    "/vehicle/driver_position_cmd": 937
+  },
+  "process_exit_codes": [
+    0,
+    0
+  ],
+  "build": {
+    "command": "source /opt/ros/humble/setup.bash && colcon build --symlink-install",
+    "exit_code": 0,
+    "duration_seconds": 63,
+    "evidence": "results/performance/build.log",
+    "network": "Build executed inside network-restricted sandbox; no installation or downloads performed; existing Humble dependencies used."
+  }
+}

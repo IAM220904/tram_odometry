@@ -1,0 +1,292 @@
+[0.232s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.232s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x79812206af20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79812206a920>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79812206a920>>, mixin_verb=('build',))
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.628s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/iam220904/rezerv_odometr/tram_odometry_solution'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(dataset) by extensions ['ignore', 'ignore_ament_install']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(dataset) by extension 'ignore'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(dataset) ignored
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'ignore_ament_install'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['colcon_pkg']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'colcon_pkg'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['colcon_meta']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['ros']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'ros'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['cmake', 'python']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'cmake'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'python'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['python_setup_py']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'python_setup_py'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(results/demo_runtime) by extensions ['ignore', 'ignore_ament_install']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(results/demo_runtime) by extension 'ignore'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(results/demo_runtime) by extension 'ignore_ament_install'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(results/demo_runtime) by extensions ['colcon_pkg']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(results/demo_runtime) by extension 'colcon_pkg'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(results/demo_runtime) by extensions ['colcon_meta']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(results/demo_runtime) by extension 'colcon_meta'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(results/demo_runtime) by extensions ['ros']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(results/demo_runtime) by extension 'ros'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(results/demo_runtime) by extensions ['cmake', 'python']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(results/demo_runtime) by extension 'cmake'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(results/demo_runtime) by extension 'python'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(results/demo_runtime) by extensions ['python_setup_py']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(results/demo_runtime) by extension 'python_setup_py'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(results/test) by extensions ['ignore', 'ignore_ament_install']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(results/test) by extension 'ignore'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(results/test) by extension 'ignore_ament_install'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(results/test) by extensions ['colcon_pkg']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(results/test) by extension 'colcon_pkg'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(results/test) by extensions ['colcon_meta']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(results/test) by extension 'colcon_meta'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(results/test) by extensions ['ros']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(results/test) by extension 'ros'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(results/test) by extensions ['cmake', 'python']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(results/test) by extension 'cmake'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(results/test) by extension 'python'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(results/test) by extensions ['python_setup_py']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(results/test) by extension 'python_setup_py'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_odometry) by extension 'ignore'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_odometry) by extension 'ignore_ament_install'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_odometry) by extensions ['colcon_pkg']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_odometry) by extension 'colcon_pkg'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_odometry) by extensions ['colcon_meta']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_odometry) by extension 'colcon_meta'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_odometry) by extensions ['ros']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_odometry) by extension 'ros'
+[0.655s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tram_odometry' with type 'ros.ament_python' and name 'tram_odometry'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_vehicle_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_vehicle_msgs) by extension 'ignore'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_vehicle_msgs) by extension 'ignore_ament_install'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_vehicle_msgs) by extensions ['colcon_pkg']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_vehicle_msgs) by extension 'colcon_pkg'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_vehicle_msgs) by extensions ['colcon_meta']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_vehicle_msgs) by extension 'colcon_meta'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_vehicle_msgs) by extensions ['ros']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_vehicle_msgs) by extension 'ros'
+[0.657s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tram_vehicle_msgs' with type 'ros.ament_cmake' and name 'tram_vehicle_msgs'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extensions ['ignore', 'ignore_ament_install']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extension 'ignore'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extension 'ignore_ament_install'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extensions ['colcon_pkg']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extension 'colcon_pkg'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extensions ['colcon_meta']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extension 'colcon_meta'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extensions ['ros']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extension 'ros'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extensions ['cmake', 'python']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extension 'cmake'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extension 'python'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extensions ['python_setup_py']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extension 'python_setup_py'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['ignore', 'ignore_ament_install']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'ignore'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'ignore_ament_install'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['colcon_pkg']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'colcon_pkg'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['colcon_meta']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'colcon_meta'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['ros']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'ros'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['cmake', 'python']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'cmake'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'python'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['python_setup_py']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'python_setup_py'
+[0.659s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.659s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.659s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.659s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.659s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.708s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 382 installed packages in /opt/ros/humble
+[0.710s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'tram_vehicle_msgs' build argument 'cmake_args' from command line to 'None'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'tram_vehicle_msgs' build argument 'cmake_target' from command line to 'None'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'tram_vehicle_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'tram_vehicle_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'tram_vehicle_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'tram_vehicle_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'tram_vehicle_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'tram_vehicle_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'tram_vehicle_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.771s] DEBUG:colcon.colcon_core.verb:Building package 'tram_vehicle_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/iam220904/rezerv_odometr/tram_odometry_solution/build/tram_vehicle_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs', 'merge_install': False, 'path': '/home/iam220904/rezerv_odometr/tram_odometry_solution/src/tram_vehicle_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'tram_odometry' build argument 'cmake_args' from command line to 'None'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'tram_odometry' build argument 'cmake_target' from command line to 'None'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'tram_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'tram_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'tram_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'tram_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'tram_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'tram_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'tram_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.772s] DEBUG:colcon.colcon_core.verb:Building package 'tram_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/iam220904/rezerv_odometr/tram_odometry_solution/build/tram_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_odometry', 'merge_install': False, 'path': '/home/iam220904/rezerv_odometr/tram_odometry_solution/src/tram_odometry', 'symlink_install': True, 'test_result_base': None}
+[0.772s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.774s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.774s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/iam220904/rezerv_odometr/tram_odometry_solution/src/tram_vehicle_msgs' with build type 'ament_cmake'
+[0.774s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/iam220904/rezerv_odometr/tram_odometry_solution/src/tram_vehicle_msgs'
+[0.782s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.782s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.782s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iam220904/rezerv_odometr/tram_odometry_solution/build/tram_vehicle_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iam220904/rezerv_odometr/tram_odometry_solution/build/tram_vehicle_msgs -- -j2 -l2
+[2.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iam220904/rezerv_odometr/tram_odometry_solution/build/tram_vehicle_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iam220904/rezerv_odometr/tram_odometry_solution/build/tram_vehicle_msgs -- -j2 -l2
+[2.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iam220904/rezerv_odometr/tram_odometry_solution/build/tram_vehicle_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iam220904/rezerv_odometr/tram_odometry_solution/build/tram_vehicle_msgs
+[2.288s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tram_vehicle_msgs)
+[2.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iam220904/rezerv_odometr/tram_odometry_solution/build/tram_vehicle_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iam220904/rezerv_odometr/tram_odometry_solution/build/tram_vehicle_msgs
+[2.298s] Level 1:colcon.colcon_core.environment:checking '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs' for CMake module files
+[2.299s] Level 1:colcon.colcon_core.environment:checking '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs' for CMake config files
+[2.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('tram_vehicle_msgs', 'cmake_prefix_path')
+[2.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/share/tram_vehicle_msgs/hook/cmake_prefix_path.ps1'
+[2.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/share/tram_vehicle_msgs/hook/cmake_prefix_path.dsv'
+[2.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/share/tram_vehicle_msgs/hook/cmake_prefix_path.sh'
+[2.303s] Level 1:colcon.colcon_core.environment:checking '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/lib'
+[2.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('tram_vehicle_msgs', 'ld_library_path_lib')
+[2.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/share/tram_vehicle_msgs/hook/ld_library_path_lib.ps1'
+[2.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/share/tram_vehicle_msgs/hook/ld_library_path_lib.dsv'
+[2.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/share/tram_vehicle_msgs/hook/ld_library_path_lib.sh'
+[2.305s] Level 1:colcon.colcon_core.environment:checking '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/bin'
+[2.305s] Level 1:colcon.colcon_core.environment:checking '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/lib/pkgconfig/tram_vehicle_msgs.pc'
+[2.305s] Level 1:colcon.colcon_core.environment:checking '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/lib/python3.10/site-packages'
+[2.305s] Level 1:colcon.colcon_core.environment:checking '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/bin'
+[2.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/share/tram_vehicle_msgs/package.ps1'
+[2.307s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/share/tram_vehicle_msgs/package.dsv'
+[2.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/share/tram_vehicle_msgs/package.sh'
+[2.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/share/tram_vehicle_msgs/package.bash'
+[2.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/share/tram_vehicle_msgs/package.zsh'
+[2.311s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/share/colcon-core/packages/tram_vehicle_msgs)
+[2.312s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tram_vehicle_msgs)
+[2.312s] Level 1:colcon.colcon_core.environment:checking '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs' for CMake module files
+[2.313s] Level 1:colcon.colcon_core.environment:checking '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs' for CMake config files
+[2.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('tram_vehicle_msgs', 'cmake_prefix_path')
+[2.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/share/tram_vehicle_msgs/hook/cmake_prefix_path.ps1'
+[2.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/share/tram_vehicle_msgs/hook/cmake_prefix_path.dsv'
+[2.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/share/tram_vehicle_msgs/hook/cmake_prefix_path.sh'
+[2.317s] Level 1:colcon.colcon_core.environment:checking '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/lib'
+[2.317s] Level 1:colcon.colcon_core.shell:create_environment_hook('tram_vehicle_msgs', 'ld_library_path_lib')
+[2.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/share/tram_vehicle_msgs/hook/ld_library_path_lib.ps1'
+[2.318s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/share/tram_vehicle_msgs/hook/ld_library_path_lib.dsv'
+[2.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/share/tram_vehicle_msgs/hook/ld_library_path_lib.sh'
+[2.319s] Level 1:colcon.colcon_core.environment:checking '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/bin'
+[2.319s] Level 1:colcon.colcon_core.environment:checking '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/lib/pkgconfig/tram_vehicle_msgs.pc'
+[2.319s] Level 1:colcon.colcon_core.environment:checking '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/lib/python3.10/site-packages'
+[2.319s] Level 1:colcon.colcon_core.environment:checking '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/bin'
+[2.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/share/tram_vehicle_msgs/package.ps1'
+[2.320s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/share/tram_vehicle_msgs/package.dsv'
+[2.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/share/tram_vehicle_msgs/package.sh'
+[2.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/share/tram_vehicle_msgs/package.bash'
+[2.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/share/tram_vehicle_msgs/package.zsh'
+[2.322s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/share/colcon-core/packages/tram_vehicle_msgs)
+[2.323s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/iam220904/rezerv_odometr/tram_odometry_solution/src/tram_odometry' with build type 'ament_python'
+[2.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('tram_odometry', 'ament_prefix_path')
+[2.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_odometry/share/tram_odometry/hook/ament_prefix_path.ps1'
+[2.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_odometry/share/tram_odometry/hook/ament_prefix_path.dsv'
+[2.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_odometry/share/tram_odometry/hook/ament_prefix_path.sh'
+[2.326s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.326s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.665s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/iam220904/rezerv_odometr/tram_odometry_solution/src/tram_odometry'
+[2.665s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.665s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[32.325s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: compile_catalog, install_data, build_ext, build_scripts, check, install_egg_info, extract_messages, build_clib, bdist, rotate, test, build, egg_info, dist_info, bdist_wheel, init_catalog, bdist_dumb, bdist_egg, alias, sdist, develop, easy_install, upload, install, register, install_scripts, bdist_rpm, symlink_data, saveopts, setopt, install_lib, clean, upload_docs, install_headers, update_catalog, build_py
+[62.355s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --quiet, --install-dir, --prefix, --local-snapshots-ok, --always-unzip, --verbose, --version, --site-dirs, --find-links, --index-url, --zip-ok, --help, --no-find-links, --install-layout, --record, --egg-path, --editable, --always-copy, --uninstall, --script-dir, --upgrade, --exclude-scripts, --optimize, --multi-version, --no-deps, --dry-run, --build-directory, --no-user-cfg, --force-installation-into-system-dir, --allow-hosts, --user
+[62.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iam220904/rezerv_odometr/tram_odometry_solution/build/tram_odometry': AMENT_PREFIX_PATH=/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs LD_LIBRARY_PATH=/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/iam220904/rezerv_odometr/tram_odometry_solution/build/tram_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_odometry/lib/python3.10/site-packages:/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/iam220904/rezerv_odometr/tram_odometry_solution/build/tram_odometry/build --no-deps symlink_data
+[62.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('tram_odometry', 'pythonpath_develop')
+[62.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iam220904/rezerv_odometr/tram_odometry_solution/build/tram_odometry/share/tram_odometry/hook/pythonpath_develop.ps1'
+[62.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iam220904/rezerv_odometr/tram_odometry_solution/build/tram_odometry' returned '0': AMENT_PREFIX_PATH=/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs LD_LIBRARY_PATH=/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/iam220904/rezerv_odometr/tram_odometry_solution/build/tram_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_odometry/lib/python3.10/site-packages:/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/iam220904/rezerv_odometr/tram_odometry_solution/build/tram_odometry/build --no-deps symlink_data
+[62.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iam220904/rezerv_odometr/tram_odometry_solution/build/tram_odometry/share/tram_odometry/hook/pythonpath_develop.dsv'
+[62.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iam220904/rezerv_odometr/tram_odometry_solution/build/tram_odometry/share/tram_odometry/hook/pythonpath_develop.sh'
+[62.952s] Level 1:colcon.colcon_core.environment:checking '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_odometry' for CMake module files
+[62.952s] Level 1:colcon.colcon_core.environment:checking '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_odometry' for CMake config files
+[62.953s] Level 1:colcon.colcon_core.environment:checking '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_odometry/lib'
+[62.955s] Level 1:colcon.colcon_core.environment:checking '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_odometry/bin'
+[62.955s] Level 1:colcon.colcon_core.environment:checking '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_odometry/lib/pkgconfig/tram_odometry.pc'
+[62.956s] Level 1:colcon.colcon_core.environment:checking '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_odometry/lib/python3.10/site-packages'
+[62.956s] Level 1:colcon.colcon_core.shell:create_environment_hook('tram_odometry', 'pythonpath')
+[62.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_odometry/share/tram_odometry/hook/pythonpath.ps1'
+[62.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_odometry/share/tram_odometry/hook/pythonpath.dsv'
+[62.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_odometry/share/tram_odometry/hook/pythonpath.sh'
+[62.957s] Level 1:colcon.colcon_core.environment:checking '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_odometry/bin'
+[62.958s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tram_odometry)
+[62.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_odometry/share/tram_odometry/package.ps1'
+[62.958s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_odometry/share/tram_odometry/package.dsv'
+[62.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_odometry/share/tram_odometry/package.sh'
+[62.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_odometry/share/tram_odometry/package.bash'
+[62.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_odometry/share/tram_odometry/package.zsh'
+[62.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iam220904/rezerv_odometr/tram_odometry_solution/install/tram_odometry/share/colcon-core/packages/tram_odometry)
+[62.961s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[62.961s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[62.961s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[62.961s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[62.973s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[62.974s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[62.974s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[62.974s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.AccessDenied: Failed to connect to socket /run/user/1000/bus: Operation not permitted
+[62.974s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[62.974s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/local_setup.ps1'
+[62.975s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/_local_setup_util_ps1.py'
+[62.976s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/setup.ps1'
+[62.978s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/local_setup.sh'
+[62.978s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/_local_setup_util_sh.py'
+[62.979s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/setup.sh'
+[62.980s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/local_setup.bash'
+[62.981s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/setup.bash'
+[62.983s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/local_setup.zsh'
+[62.984s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/iam220904/rezerv_odometr/tram_odometry_solution/install/setup.zsh'

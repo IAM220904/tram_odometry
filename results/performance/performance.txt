@@ -1,0 +1,52 @@
+Test UTC: 2026-09-27T13:50:02.750964+00:00
+Bag: /home/iam220904/rezerv_odometr/tram_odometry_solution/dataset/data/30618_af7496f0
+Launch: ros2 launch tram_odometry odometry.launch.py use_sim_time:=true
+Playback: ros2 bag play /home/iam220904/rezerv_odometr/tram_odometry_solution/dataset/data/30618_af7496f0 --clock 100 --rate 1.0
+Observation: 45.002 s; rates/proxies: 20 s after 5 s warmup.
+/result/velocity: 20.000 Hz; mean-interval rate 19.999 Hz; max interval 55.701 ms
+/result/position: 20.000 Hz; mean-interval rate 19.999 Hz; max interval 56.095 ms
+PROXY /vehicle/front_bogie_velocity -> /result/velocity: {"samples": 191, "mean": 8.280501743460196, "median": 8.330201999342535, "max": 12.425963999703526, "min": 3.5439889998087892} ms; unmatched=0
+PROXY /vehicle/rear_bogie_velocity -> /result/velocity: {"samples": 191, "mean": 8.166260355972279, "median": 8.259105999968597, "max": 12.338070000623702, "min": 2.321861999007524} ms; unmatched=0
+PROXY /vehicle/driver_position_cmd -> /result/velocity: {"samples": 400, "mean": 10.52154519249143, "median": 10.479724500328302, "max": 14.512437999655958, "min": 3.8831700003356673} ms; unmatched=0
+PROXY /vehicle/front_bogie_velocity -> /result/position: {"samples": 191, "mean": 8.742303036704385, "median": 8.766277998802252, "max": 12.990829000045778, "min": 4.387241000586073} ms; unmatched=0
+PROXY /vehicle/rear_bogie_velocity -> /result/position: {"samples": 191, "mean": 8.628061649216466, "median": 8.620585000244319, "max": 12.836538000556175, "min": 4.187151998849004} ms; unmatched=0
+PROXY /vehicle/driver_position_cmd -> /result/position: {"samples": 400, "mean": 10.94291583501672, "median": 10.812898999574827, "max": 15.800361999936285, "min": 4.173153000010643} ms; unmatched=0
+Observer monotonic receipt of each input to next received output with output Header >= input Header. All inputs, including potentially rejected ones, are included. Per-source values are reported separately.
+No accepted-input ID or publication timestamp is exposed. DDS scheduling differs between observer and estimator; the candidate output may not include the input. Output Header is an extrapolated source clock, not wall publication time. Neither proxy nor Header delta proves causal latency compliance. No bag-recording age is treated as processing latency.
+{
+  "scope": "Odometry node PID only, including its threads; excludes bag player, launch and observer. Decimal MB. /proc sampled about every 0.5 s; between-sample peaks unverified.",
+  "pid": 116700,
+  "cpu_percent_mean": 13.779723273159174,
+  "cpu_percent_sampled_peak": 19.937435927278656,
+  "effective_cores_mean": 0.13779723273159175,
+  "effective_cores_sampled_peak": 0.19937435927278657,
+  "rss_mb": {
+    "samples": 89,
+    "mean": 60.96145833707865,
+    "median": 60.98944,
+    "max": 60.98944,
+    "min": 59.809792
+  },
+  "first_5s_mean_rss_mb": 60.7404032,
+  "last_5s_mean_rss_mb": 60.98944,
+  "rss_growth_mb": 0.24903679999999895
+}
+Short-run alive: True
+Requirements (scope: this short run only):
+{
+  "velocity_rate_ge_10_hz": "VERIFIED",
+  "position_rate_ge_10_hz": "VERIFIED",
+  "recommended_observed_rate_20_to_50_hz": "VERIFIED",
+  "causal_input_to_output_latency_le_100_ms": "NOT VERIFIED",
+  "causal_peak_latency_le_250_ms": "NOT VERIFIED",
+  "node_cpu_le_2_cores_sampled": "VERIFIED",
+  "node_rss_le_0_5_gb_sampled": "VERIFIED",
+  "short_run_alive_finite_continuous_outputs": "VERIFIED",
+  "long_term_memory_stability": "NOT VERIFIED"
+}
+
+Build without internet: VERIFIED. colcon build --symlink-install exited 0 in about 63 s in network-restricted sandbox with preinstalled dependencies. See build.log.
+After-warmup RSS range (MB): [60.98944, 60.98944]; sampled plateau: VERIFIED.
+Process exit codes (launch, player): [0, 0]; launch log confirms node finished cleanly.
+Pooled all-input PROXY -> /result/velocity: {"samples": 782, "mean": 9.398912580547538, "median": 9.45673149999493, "max": 14.512437999655958, "min": 2.321861999007524} ms.
+Pooled all-input PROXY -> /result/position: {"samples": 782, "mean": 9.840033234037813, "median": 9.959654498743475, "max": 15.800361999936285, "min": 4.173153000010643} ms.

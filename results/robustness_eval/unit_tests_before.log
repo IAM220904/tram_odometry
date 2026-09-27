@@ -1,0 +1,18 @@
+test_cdr_endianness_and_alignment (test_estimator.EstimatorTests) ... ok
+test_constant_speed_distance_and_duplicates (test_estimator.EstimatorTests) ... ok
+test_enu_origin_and_orientation (test_estimator.EstimatorTests) ... ok
+test_finite_dropout_and_recovery (test_estimator.EstimatorTests) ... ok
+test_gnss_quarantine (test_estimator.EstimatorTests) ... ok
+test_invalid_values_and_old_messages (test_estimator.EstimatorTests) ... ok
+test_known_route_turn_and_end (test_estimator.EstimatorTests) ... ok
+test_one_axle_spike_and_two_axle_short_lock (test_estimator.EstimatorTests) ... ok
+test_time_chunking_distance (test_estimator.EstimatorTests) ... ok
+test_auto_projection_preserves_gnss_anchor_distance (test_position_routes.RouteInitializationTests) ... ok
+test_configured_pose_projects_without_gnss_and_follows_turn (test_position_routes.RouteInitializationTests) ... ok
+test_explicit_station_is_not_rebased_by_initial_gnss (test_position_routes.RouteInitializationTests) ... ok
+test_reverse_route_direction_and_exhaustion (test_position_routes.RouteInitializationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.006s
+
+OK

@@ -1,0 +1,11 @@
+{
+  "unit_tests": {
+    "count": 9,
+    "passed": 9
+  },
+  "synthetic_scenarios": 7,
+  "held_out_real_bags": 20,
+  "python_syntax": "passed",
+  "ros_build_and_runtime": "NOT VERIFIED: ROS 2 unavailable",
+  "full_xyz_without_map": "UNSOLVED: heading held; see README"
+}

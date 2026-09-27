@@ -1,0 +1,318 @@
+{
+  "scope": "DEV geometry only; no estimator replay or tuning; TEST not read",
+  "moving_definition": "GNSS displacement >=1.5 m over centered +/-1s window, span >=1.6s, no gap >0.25s; directions NOT carried through stops",
+  "coverage_definition": "Within 3 m of same-direction TRAIN node (dot >=0.7), among up to 64 nearest nodes within 8m",
+  "pooled_moving_samples": 106249,
+  "pooled_covered_samples": 102767,
+  "pooled_coverage_pct": 96.72279268510762,
+  "covered_nearest_node_rmse_m": 0.6959469823598998,
+  "covered_lateral_rmse_m": 0.432488231769031,
+  "lateral_definition": "Signed offset normal to nearest compatible map-node tangent; conditional on coverage, NOT graph station error",
+  "bags_without_moving_reference": [
+    "30618_6236f680",
+    "30618_3ba2326f",
+    "30618_98161270",
+    "30618_45ff6f99",
+    "30639_0ab96c59"
+  ],
+  "per_bag": [
+    {
+      "bag": "30618_6236f680",
+      "moving_samples": 0,
+      "status": "no fixes"
+    },
+    {
+      "bag": "30618_3ba2326f",
+      "moving_samples": 0,
+      "status": "no fixes"
+    },
+    {
+      "bag": "30618_21dd3af3",
+      "status": "measured",
+      "moving_samples": 8066,
+      "covered_samples": 7992,
+      "coverage_pct": 99.08256880733946,
+      "covered_nearest_node_rmse_m": 0.6607045519413226,
+      "covered_lateral_rmse_m": 0.3939274053201954,
+      "uncovered_samples": 74,
+      "uncovered_bounds_xy": [
+        [
+          -1957.4901966803698,
+          -624.3905594775407
+        ],
+        [
+          -1933.6408969518207,
+          -608.8233125474299
+        ]
+      ]
+    },
+    {
+      "bag": "30618_4d487b0d",
+      "status": "measured",
+      "moving_samples": 8541,
+      "covered_samples": 8083,
+      "coverage_pct": 94.63763025406861,
+      "covered_nearest_node_rmse_m": 0.6635677656602135,
+      "covered_lateral_rmse_m": 0.3480808333105319,
+      "uncovered_samples": 458,
+      "uncovered_bounds_xy": [
+        [
+          -1942.8614433190146,
+          -557.8006612670938
+        ],
+        [
+          2557.543165424706,
+          472.2709170245509
+        ]
+      ]
+    },
+    {
+      "bag": "30618_6cb3280a",
+      "status": "measured",
+      "moving_samples": 7862,
+      "covered_samples": 7597,
+      "coverage_pct": 96.62935639786315,
+      "covered_nearest_node_rmse_m": 0.6733358588194789,
+      "covered_lateral_rmse_m": 0.41502864379991505,
+      "uncovered_samples": 265,
+      "uncovered_bounds_xy": [
+        [
+          -1952.9069080749155,
+          -600.4191276326645
+        ],
+        [
+          -1898.8322292505122,
+          -541.6764817798007
+        ]
+      ]
+    },
+    {
+      "bag": "30618_3b36e5cd",
+      "status": "measured",
+      "moving_samples": 8334,
+      "covered_samples": 7967,
+      "coverage_pct": 95.59635229181666,
+      "covered_nearest_node_rmse_m": 0.6082548659237482,
+      "covered_lateral_rmse_m": 0.25359219226102064,
+      "uncovered_samples": 367,
+      "uncovered_bounds_xy": [
+        [
+          -391.96487825410543,
+          -82.96557056575466
+        ],
+        [
+          2455.557568557687,
+          331.1512931183853
+        ]
+      ]
+    },
+    {
+      "bag": "30618_748832b9",
+      "status": "measured",
+      "moving_samples": 7892,
+      "covered_samples": 7858,
+      "coverage_pct": 99.56918398378104,
+      "covered_nearest_node_rmse_m": 0.5370189337733449,
+      "covered_lateral_rmse_m": 0.14298470548813141,
+      "uncovered_samples": 34,
+      "uncovered_bounds_xy": [
+        [
+          -1956.4871588675314,
+          -597.0063059453811
+        ],
+        [
+          -1952.0697371704384,
+          -592.4562974591838
+        ]
+      ]
+    },
+    {
+      "bag": "30618_1cc230fa",
+      "status": "measured",
+      "moving_samples": 8637,
+      "covered_samples": 8242,
+      "coverage_pct": 95.42665277295357,
+      "covered_nearest_node_rmse_m": 0.6256638103999452,
+      "covered_lateral_rmse_m": 0.28646021571215446,
+      "uncovered_samples": 395,
+      "uncovered_bounds_xy": [
+        [
+          -1936.1248410895155,
+          -555.2296431686699
+        ],
+        [
+          1855.4054465118652,
+          66.4739062912064
+        ]
+      ]
+    },
+    {
+      "bag": "30618_98161270",
+      "moving_samples": 0,
+      "status": "no valid moving window"
+    },
+    {
+      "bag": "30618_45ff6f99",
+      "moving_samples": 0,
+      "status": "no valid moving window"
+    },
+    {
+      "bag": "30618_bab2fe58",
+      "status": "measured",
+      "moving_samples": 440,
+      "covered_samples": 440,
+      "coverage_pct": 100.0,
+      "covered_nearest_node_rmse_m": 0.5003423707630222,
+      "covered_lateral_rmse_m": 0.17533182719896206,
+      "uncovered_samples": 0,
+      "uncovered_bounds_xy": null
+    },
+    {
+      "bag": "30618_2366c74a",
+      "status": "measured",
+      "moving_samples": 6615,
+      "covered_samples": 6407,
+      "coverage_pct": 96.85563114134543,
+      "covered_nearest_node_rmse_m": 1.0670104278139234,
+      "covered_lateral_rmse_m": 0.9188672644594681,
+      "uncovered_samples": 208,
+      "uncovered_bounds_xy": [
+        [
+          -531.3229536924464,
+          21.855949475037978
+        ],
+        [
+          -309.3902320092693,
+          76.3094742546696
+        ]
+      ]
+    },
+    {
+      "bag": "30618_40ffd323",
+      "status": "measured",
+      "moving_samples": 9020,
+      "covered_samples": 8633,
+      "coverage_pct": 95.70953436807096,
+      "covered_nearest_node_rmse_m": 0.5855598760299948,
+      "covered_lateral_rmse_m": 0.19898867949208596,
+      "uncovered_samples": 387,
+      "uncovered_bounds_xy": [
+        [
+          -1943.000910463741,
+          -557.8674028766958
+        ],
+        [
+          1856.055793546587,
+          66.51890563479472
+        ]
+      ]
+    },
+    {
+      "bag": "30618_2cb9ce37",
+      "status": "measured",
+      "moving_samples": 5532,
+      "covered_samples": 5532,
+      "coverage_pct": 100.0,
+      "covered_nearest_node_rmse_m": 0.5909303469920186,
+      "covered_lateral_rmse_m": 0.2627964289535893,
+      "uncovered_samples": 0,
+      "uncovered_bounds_xy": null
+    },
+    {
+      "bag": "30618_af7496f0",
+      "status": "measured",
+      "moving_samples": 1284,
+      "covered_samples": 1190,
+      "coverage_pct": 92.6791277258567,
+      "covered_nearest_node_rmse_m": 1.1279336659154968,
+      "covered_lateral_rmse_m": 0.9603600271074277,
+      "uncovered_samples": 94,
+      "uncovered_bounds_xy": [
+        [
+          2548.8004304320816,
+          459.417057233441
+        ],
+        [
+          2550.8478872194387,
+          465.87006519588914
+        ]
+      ]
+    },
+    {
+      "bag": "30618_437e855c",
+      "status": "measured",
+      "moving_samples": 8343,
+      "covered_samples": 7994,
+      "coverage_pct": 95.81685245115665,
+      "covered_nearest_node_rmse_m": 0.6442561385675518,
+      "covered_lateral_rmse_m": 0.32239678485282947,
+      "uncovered_samples": 349,
+      "uncovered_bounds_xy": [
+        [
+          1273.2270040385672,
+          26.55325913866861
+        ],
+        [
+          1855.7997469754707,
+          66.49096083797266
+        ]
+      ]
+    },
+    {
+      "bag": "30639_584b6e32",
+      "status": "measured",
+      "moving_samples": 8476,
+      "covered_samples": 8055,
+      "coverage_pct": 95.03303445021236,
+      "covered_nearest_node_rmse_m": 0.8201575854760653,
+      "covered_lateral_rmse_m": 0.5948680477873427,
+      "uncovered_samples": 421,
+      "uncovered_bounds_xy": [
+        [
+          -1943.6637804663478,
+          -606.511601091169
+        ],
+        [
+          2301.3073673334134,
+          149.32323095414785
+        ]
+      ]
+    },
+    {
+      "bag": "30639_2b4a6347",
+      "status": "measured",
+      "moving_samples": 8027,
+      "covered_samples": 8027,
+      "coverage_pct": 100.0,
+      "covered_nearest_node_rmse_m": 0.7769617013031388,
+      "covered_lateral_rmse_m": 0.5715849396858985,
+      "uncovered_samples": 0,
+      "uncovered_bounds_xy": null
+    },
+    {
+      "bag": "30639_4285f2bc",
+      "status": "measured",
+      "moving_samples": 9180,
+      "covered_samples": 8750,
+      "coverage_pct": 95.31590413943356,
+      "covered_nearest_node_rmse_m": 0.62789459271899,
+      "covered_lateral_rmse_m": 0.3016996583139639,
+      "uncovered_samples": 430,
+      "uncovered_bounds_xy": [
+        [
+          -1943.026513655411,
+          -557.8655342237288
+        ],
+        [
+          1855.6849211717577,
+          66.73921877392627
+        ]
+      ]
+    },
+    {
+      "bag": "30639_0ab96c59",
+      "moving_samples": 0,
+      "status": "no valid moving window"
+    }
+  ]
+}
